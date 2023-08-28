@@ -4,3 +4,13 @@
   box-sizing: border-box;
   outline: none;
 }
+.App{
+  display: flex;
+  flex-direction: row;
+}
+.leftside{
+  flex: .04;
+}
+.rightside{
+  flex: .96;
+}

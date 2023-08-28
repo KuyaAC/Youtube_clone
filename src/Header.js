@@ -1,19 +1,23 @@
 import React from "react";
+import "./Header.css";
+import Logo from "./rsrc/logo.png";
+import Magnify from "./rsrc/magnify.svg";
 
 function Header() {
   return (
-    <div className="header d-flex align-items-center justify-content-space-between">
-      <div className="header-left-items d-flex align-items-center mxy-30">
-        <svg
-          height="24"
-          viewBox="0 0 24 24"
-          width="24"
-          focusable="false"
-          style="pointer-events: none; display: block; width: 100%; height: 100%;"
-        >
-          <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
-        </svg>
-      </div>
+    <div className="header d-flex align-items-center ">
+      <img className="youtube-logo" src={Logo} alt="youtube logo" />
+      <form className="search-bar">
+        <input
+          className="search-input"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button type="submit" className="search-btn">
+          <img src={Magnify} alt="magnifybtn" />
+        </button>
+      </form>
     </div>
   );
 }

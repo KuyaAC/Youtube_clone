@@ -1,10 +1,16 @@
 import Header from "./Header";
+import Leftnav from "./LeftNav";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div className="leftside">
+        <Leftnav />
+      </div>
+      <div className="rightside">
+        <Header />
+      </div>
     </div>
   );
 }
