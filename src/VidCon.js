@@ -25,7 +25,7 @@ function VidCon() {
             Channel Name
           </a>
           <div className="video-metadata">
-            <span>12K views</span>•<span>1 week ago</span>
+            <span>12K views </span>•<span> 1 week ago</span>
           </div>
         </div>
       </div>

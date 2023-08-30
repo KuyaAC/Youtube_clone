@@ -10,4 +10,14 @@
     margin-top: 7px;
     
   }
+  svg{
+    pointer-events: none; 
+    display: block; 
+    width: 50%; 
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 14px;
+  }
  

@@ -23,6 +23,9 @@ function Videos() {
         <VidCon />
         <VidCon />
         <VidCon />
+        <VidCon />
+        <VidCon />
+        <VidCon />
       </section>
     </div>
   );
