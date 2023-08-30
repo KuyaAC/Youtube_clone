@@ -1,0 +1,41 @@
+.categories {
+    padding-left: 20px;
+    margin-top: 5px;
+    
+  }
+  
+  .category-section {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .category {
+    margin-right: .5rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #e8e8e8;
+    height: 32px;
+    padding: .4rem .8rem;
+    color: black;
+    cursor: pointer;
+    transition: background-color 150ms;
+    font-size: 13px;
+    font-family: Roboto, Arial, sans-serif;
+  }
+  
+  .category:hover {
+    background-color: #DDD;
+  }
+  
+  .category.active {
+    background-color: #252525;
+    color: white;
+    border-color: #EEE;
+  }
+  
+  .category:last-child {
+    margin-right: 0;
+  }
+  

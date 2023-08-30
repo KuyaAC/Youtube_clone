@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Leftnav from "./LeftNav";
+import Category from "./Category";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       </div>
       <div className="rightside">
         <Header />
+        <Category />
       </div>
     </div>
   );
