@@ -1,10 +1,13 @@
+* {
+  margin: 0;
+}
 .header{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
 .youtube-logo {
-    margin-left: 2px;
+    margin-top: 2px;
     height: 20px;
   }
   .search-bar {
@@ -14,14 +17,16 @@
   }
   
   .search-input {
-    width: 45%;
+    width: 60%;
     font-size: 14px;
-    padding: .5em;
+    padding: 0 .5rem;
     border: 1px solid #777;
     border-radius: 25px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
   
   .search-btn {
@@ -35,8 +40,24 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     cursor: pointer;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
   
   .search-btn:hover {
     background-color: #F0F0F0;
+  }
+  .menu-icons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .menu-channel-icon {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #AAA;
+    margin-right: 20px;
   }
